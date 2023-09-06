@@ -1,0 +1,30 @@
+hp = 100
+
+
+
+
+    print("Du valgte å kjøre nærmere, du stakk hånden din ned i vannet, ikke så lurt.. du blir drat under å aldri sett igjen")
+
+
+if valg == "B":
+    print("Du kjører vekk, du får aldri vite hva det var, men du lever i hvertfall.")
+
+    print("du har kjørt deg hvil, gjennom den tykke tåken kan du se en øy")
+    print("Hva gjør du? A: kjører mot øya B: lete etter fastland -> ")
+    valg = input(" A eller B? ")
+
+    if valg == "A":
+        print("Du har nåd øya, men denne plassen gir deg en dårlig følelse.")
+
+
+    if valg == "B":
+        print("du får en dårlig følelse av den øya, du kjører vidre uten å tenke deg om.")
+
+def Start_rom():
+    
+    print ("Du er ute på havet med båten din, du ser at det bobler i vannet")
+
+    valg = input("Hva gjør du? A: kjører nærmere B: kjører vekk -> ")
+    
+    if valg == "A":  
+            
